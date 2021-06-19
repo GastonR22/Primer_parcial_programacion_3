@@ -33,8 +33,12 @@ name:string,price:decimal,stock:integer,stock_min:integer,stock_max:integer,bran
 
 15 - sequelize model:generate --name Image --attributes name:string,productId:integer
 
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- Nombre DB que se debe crear ----> synthwave
 
 -- Comando de migrado utilizado ----> node_modules/.bin/sequelize db:migrate
+
+-- Modulo de node en .gitignore --- /node_modules/
+
+
